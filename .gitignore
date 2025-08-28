@@ -1,0 +1,25 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+
+# Data files (large files should not go to GitHub)
+*.csv
+*.tsv
+*.xlsx
+*.json
+
+# OS/system files
+.DS_Store
+Thumbs.db
