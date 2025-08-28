@@ -51,6 +51,15 @@ ml-42days-roadmap/
 
 ---
 
+## 🚀 How I Am Learning  
+
+I am learning from multiple resources (College Lectures, Kaggle Learn, W3Schools, Docs, YouTube, etc.), and I will:  
+- Take notes in Markdown files (saved inside respective week folders).  
+- Push practice notebooks/code here.  
+- Track my daily progress using the checklist above.  
+
+---
+
 ## 🚀 Projects Along the Way
 Some highlighted projects from this roadmap:  
 - Bank Account Program (Python OOP)  
@@ -71,6 +80,7 @@ Some highlighted projects from this roadmap:
 ---
 
 ## 🔗 References
+- [W3School Python Tutorials](https://www.w3schools.com/python/default.asp)
 - [Kaggle Learn](https://www.kaggle.com/learn)  
 - [scikit-learn Documentation](https://scikit-learn.org/stable/user_guide.html)   
 
