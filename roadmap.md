@@ -82,52 +82,56 @@ This is my **day-by-day learning plan** for covering Python, data handling, core
 
 # ✅ Progress Tracker
 
-I’ll keep updating this table as I complete each day.
+I’ll keep updating this table as I complete each day.  
 
-| Day | Topic | Status |
-|-----|-------|--------|
-| 1   | Python Basics (variables, datatypes, operators) | [ ] |
-| 2   | Loops, Functions, Recursion | [ ] |
-| 3   | Data Structures (lists, tuples, dicts, sets) | [ ] |
-| 4   | File Handling, Exceptions | [ ] |
-| 5   | OOP Basics | [ ] |
-| 6   | Inheritance, Polymorphism, Encapsulation | [ ] |
-| 7   | Mini Python Project | [ ] |
-| 8   | NumPy Arrays & Operations | [ ] |
-| 9   | NumPy Functions | [ ] |
-| 10  | Pandas Basics | [ ] |
-| 11  | Missing Values, GroupBy, Merge | [ ] |
-| 12  | Data Cleaning | [ ] |
-| 13  | Matplotlib Visualization | [ ] |
-| 14  | Seaborn Visualization | [ ] |
-| 15  | Intro to ML, Train/Test Split | [ ] |
-| 16  | Linear Regression | [ ] |
-| 17  | Logistic Regression | [ ] |
-| 18  | Decision Trees | [ ] |
-| 19  | Random Forests | [ ] |
-| 20  | Gradient Boosting / XGBoost | [ ] |
-| 21  | Project: House Prices / Titanic | [ ] |
-| 22  | KNN | [ ] |
-| 23  | Naive Bayes | [ ] |
-| 24  | SVM | [ ] |
-| 25  | K-Means Clustering | [ ] |
-| 26  | Hierarchical Clustering, DBSCAN | [ ] |
-| 27  | PCA | [ ] |
-| 28  | Project: Segmentation / Digits | [ ] |
-| 29  | Preprocessing & Pipelines | [ ] |
-| 30  | Feature Engineering | [ ] |
-| 31  | Model Evaluation (CV, Grid Search) | [ ] |
-| 32  | Regularization | [ ] |
-| 33  | Imbalanced Datasets | [ ] |
-| 34  | Model Deployment Basics | [ ] |
-| 35  | End-to-End ML Project | [ ] |
-| 36  | Neural Networks Basics | [ ] |
-| 37  | TensorFlow/Keras Basics | [ ] |
-| 38  | CNNs | [ ] |
-| 39  | RNNs | [ ] |
-| 40  | LSTMs | [ ] |
-| 41  | Transfer Learning | [ ] |
-| 42  | Final Project | [ ] |
+![Progress](https://img.shields.io/badge/Progress-2.38%25-brightgreen?style=for-the-badge)
+
+| Day | Topic                                                   | Status |
+|-----|---------------------------------------------------------|--------|
+| 1   | Python Basics (variables, datatypes, operators)         |   ✅  |
+| 2   | Loops, Functions, Recursion                             |     |
+| 3   | Data Structures (lists, tuples, dicts, sets)            |     |
+| 4   | File Handling, Exceptions                               |     |
+| 5   | OOP Basics                                              |     |
+| 6   | Inheritance, Polymorphism, Encapsulation                |     |
+| 7   | Mini Python Project                                     |     |
+| 8   | NumPy Arrays & Operations                               |     |
+| 9   | NumPy Functions                                         |     |
+| 10  | Pandas Basics                                           |     |
+| 11  | Missing Values, GroupBy, Merge                          |     |
+| 12  | Data Visualization with Matplotlib                      |     |
+| 13  | Data Visualization with Seaborn                         |     |
+| 14  | Mini Data Analysis Project                              |     |
+| 15  | Statistics Basics (mean, median, mode, variance, std)   |     |
+| 16  | Probability Basics                                      |     |
+| 17  | Distributions (Normal, Binomial, Poisson)               |     |
+| 18  | Hypothesis Testing (t-test, chi-square, ANOVA)          |     |
+| 19  | Correlation & Covariance                                |     |
+| 20  | Linear Algebra Basics                                   |     |
+| 21  | Mini Statistics Project                                 |     |
+| 22  | Introduction to Machine Learning                        |     |
+| 23  | Linear Regression                                       |     |
+| 24  | Logistic Regression                                     |     |
+| 25  | Decision Trees                                          |     |
+| 26  | Random Forest                                           |     |
+| 27  | KNN (K-Nearest Neighbors)                               |     |
+| 28  | Naive Bayes                                             |     |
+| 29  | Support Vector Machines (SVM)                           |     |
+| 30  | K-Means Clustering                                      |     |
+| 31  | PCA (Principal Component Analysis)                      |     |
+| 32  | Model Evaluation Metrics (accuracy, precision, recall)  |     |
+| 33  | Cross-Validation & Hyperparameter Tuning                |     |
+| 34  | Mini ML Project                                         |     |
+| 35  | Introduction to Deep Learning                           |     |
+| 36  | Neural Networks Basics                                  |     |
+| 37  | Forward & Backpropagation                               |     |
+| 38  | Activation Functions                                    |     |
+| 39  | Optimizers (SGD, Adam)                                  |     |
+| 40  | Regularization (Dropout, L2)                            |     |
+| 41  | Build ANN with TensorFlow/Keras                         |     |
+| 42  | Final ML/DL Project                                     |     |     
+
+
 
 ---
 
