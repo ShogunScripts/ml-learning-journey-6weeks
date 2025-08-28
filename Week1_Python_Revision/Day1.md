@@ -178,4 +178,4 @@ Python Match
 ---
 
 ## 🔗 References
-- [W3School Python Tutorials] (https://www.w3schools.com/python/default.asp)
+- [W3School Python Tutorials](https://www.w3schools.com/python/default.asp)
