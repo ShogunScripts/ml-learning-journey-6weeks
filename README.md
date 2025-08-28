@@ -24,3 +24,54 @@ I am following a structured **42-day plan**:
 ---
 
 ## 📂 Repository Structure
+ml-42days-roadmap/
+│
+├── README.md # You are here
+├── roadmap.md # Full 42-day roadmap plan
+├── Week1_Python_Revision/ # Python basics + mini OOP project
+├── Week2_Numpy_Pandas_Viz/ # Data analysis & visualization
+├── Week3_CoreML/ # Core ML algorithms
+├── Week4_Algorithms/ # More ML algorithms
+├── Week5_EndToEnd/ # End-to-End ML workflows
+├── Week6_DeepLearning/ # Neural nets & DL projects
+└── datasets/ # Datasets or links
+
+
+---
+
+## ✅ Progress Tracker
+- [ ] Week 1: Python Revision  
+- [ ] Week 2: NumPy, Pandas, Visualization  
+- [ ] Week 3: Core ML  
+- [ ] Week 4: ML Algorithms  
+- [ ] Week 5: End-to-End ML  
+- [ ] Week 6: Deep Learning  
+
+---
+
+## 🚀 Projects Along the Way
+Some highlighted projects from this roadmap:  
+- Bank Account Program (Python OOP)  
+- Titanic Dataset Analysis & Prediction (Logistic Regression, Decision Trees, Random Forests)  
+- House Prices Prediction (Linear Regression, Ridge)  
+- Customer Segmentation (KMeans Clustering)  
+- Loan Default Prediction (End-to-End ML)  
+- MNIST Digit Recognition (CNN)  
+- Stock Price Forecasting (LSTM)  
+
+---
+
+## 🧠 Why This Repo?
+- **Portfolio:** Showcase my ML learning journey to recruiters & collaborators.  
+- **Accountability:** A public log to keep myself consistent.  
+- **Sharing:** Help other beginners by sharing notes, code & mistakes.  
+
+---
+
+## 🔗 References
+- [Kaggle Learn](https://www.kaggle.com/learn)  
+- [scikit-learn Documentation](https://scikit-learn.org/stable/user_guide.html)   
+
+---
+
+### ⭐ If you find this helpful, consider starring the repo!
