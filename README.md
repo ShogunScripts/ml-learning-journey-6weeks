@@ -25,6 +25,7 @@ I am following a structured **42-day plan**:
 
 ## 📂 Repository Structure  
 
+```
 ml-42days-roadmap/
 │
 ├── README.md # You are here
@@ -36,7 +37,7 @@ ml-42days-roadmap/
 ├── Week5_EndToEnd/ # End-to-End ML workflows
 ├── Week6_DeepLearning/ # Neural nets & DL projects
 └── datasets/ # Datasets (if license allows) or links
-
+```
 
 ---
 
