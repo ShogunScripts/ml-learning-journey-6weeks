@@ -36,7 +36,7 @@ ml-42days-roadmap/
 ├── Week4_Algorithms/ # More ML algorithms
 ├── Week5_EndToEnd/ # End-to-End ML workflows
 ├── Week6_DeepLearning/ # Neural nets & DL projects
-└── datasets/ # Datasets (if license allows) or links
+└── datasets/ # Datasets or links
 ```
 
 ---
