@@ -51,7 +51,7 @@ ml-42days-roadmap/
 
 ---
 
-## 🚀 How I Am Learning  
+## ✒️ How I Am Learning  
 
 I am learning from multiple resources (College Lectures, Kaggle Learn, W3Schools, Docs, YouTube, etc.), and I will:  
 - Take notes in Markdown files (saved inside respective week folders).  
@@ -60,7 +60,7 @@ I am learning from multiple resources (College Lectures, Kaggle Learn, W3Schools
 
 ---
 
-## 🚀 Projects Along the Way
+## 🏗️ Projects Along the Way
 Some highlighted projects from this roadmap:  
 - Bank Account Program (Python OOP)  
 - Titanic Dataset Analysis & Prediction (Logistic Regression, Decision Trees, Random Forests)  
