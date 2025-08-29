@@ -179,3 +179,31 @@ Python Match
 
 ## 🔗 References
 - [W3School Python Tutorials](https://www.w3schools.com/python/default.asp)
+
+---
+
+## 🧑‍💻 Practice / Code
+
+```python
+# Example code block
+
+# Task: Write a program for Fibonacci
+def fib(n):
+  a, b = 0, 1
+  series = []
+  for _ in range(n):
+    series.append(a)
+    a, b = b, a+b
+  return series
+
+print(fib(5))
+
+# Task: Write a program for Factorial
+def factorial(n):
+  if n==(0|1):
+    return 1
+  else:
+    return n*factorial(n-1)
+
+print(factorial(5))
+```
