@@ -220,11 +220,29 @@ Python has two primitive loop commands:
 
 ---
 
-## 💻 Practice Exercises
-1. Write a Python program to print the first 10 natural numbers using a `while` loop.  
-2. Create a function that takes a list of numbers and returns their sum.  
-3. Write a recursive function to calculate the factorial of a number.  
-4. Write a recursive function to generate the Fibonacci sequence up to `n` terms.  
+## 💻 Practice Exercises & Codes
+1. Write a Python program to print the first 10 natural numbers using a `while` loop.
+   ```python
+   def naturalNumbers(x):
+     while(x):
+       print(x)
+       x -= 1
+
+   naturalNumbers(10)
+   ```
+2. Create a function that takes a list of numbers and returns their sum.
+   ```python
+   def listSum(nums):
+     total = 0
+     for i in nums:
+       total += i
+     return total
+
+   numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+   print(listSum(numbers))
+   ```
+4. Write a recursive function to calculate the factorial of a number.  
+5. Write a recursive function to generate the Fibonacci sequence up to `n` terms.  
 
 ---
 
