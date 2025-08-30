@@ -241,8 +241,32 @@ Python has two primitive loop commands:
    numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
    print(listSum(numbers))
    ```
-4. Write a recursive function to calculate the factorial of a number.  
-5. Write a recursive function to generate the Fibonacci sequence up to `n` terms.  
+3. Write a recursive function to calculate the factorial of a number.
+   ```python
+   def factorial(x):
+     if x==(0|1):
+       return 1
+     else:
+       return x*factorial(x-1)
+
+   print(factorial(5))
+   ```
+4. Write a recursive function to generate the Fibonacci sequence up to `n` terms.
+   ```python
+   def fibb(x):
+     if x <= 0:
+       return []
+     elif x == 1:
+       return [0]
+     elif x == 2:
+       return [0, 1]
+
+     seq = fibb(x-1)
+     seq.append(seq[-1]+seq[-2])       
+     return seq
+
+   print(fibb(5))
+   ```
 
 ---
 
