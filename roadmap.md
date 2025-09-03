@@ -84,13 +84,13 @@ This is my **day-by-day learning plan** for covering Python, data handling, core
 
 I’ll keep updating this table as I complete each day.  
 
-![Progress](https://img.shields.io/badge/Progress-2.38%25-brightgreen?style=for-the-badge)
+![Progress](https://img.shields.io/badge/Progress-7.14%25-brightgreen?style=for-the-badge)
 
 | Day | Topic                                                   | Status |
 |-----|---------------------------------------------------------|--------|
 | 1   | Python Basics (variables, datatypes, operators)         |   ✅  |
-| 2   | Loops, Functions, Recursion                             |     |
-| 3   | Data Structures (lists, tuples, dicts, sets)            |     |
+| 2   | Loops, Functions, Recursion                             |   ✅  |
+| 3   | Data Structures (lists, tuples, dicts, sets)            |   ✅  |
 | 4   | File Handling, Exceptions                               |     |
 | 5   | OOP Basics                                              |     |
 | 6   | Inheritance, Polymorphism, Encapsulation                |     |
