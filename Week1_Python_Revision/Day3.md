@@ -230,7 +230,24 @@ There are four collection data types in the Python programming language:
    }
    print(students)
    ```
+5. Word frequency counter using `dict`
+   ```python
+   sample = "The quick brown fox jumps over the lazy dog. The dog barked, but the fox ran away quickly. Both the fox and the dog were very clever animals."
 
+   for ch in ',.!?':
+     sample = sample.replace(ch,"")
+
+   words = sample.lower().split()
+   wordDictionary = dict()
+
+   for x in words:
+     if x in wordDictionary:
+       wordDictionary[x] = wordDictionary[x] + 1
+     else:
+       wordDictionary[x] = 1
+
+   print(wordDictionary)
+   ```
 ---
 
 ## 📂 Resources
