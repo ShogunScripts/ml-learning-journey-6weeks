@@ -267,7 +267,24 @@ Python has two primitive loop commands:
 
    print(fibb(5))
    ```
+5. Program to count vowels in a string.
+   ```python
+   sample = "Artificial intelligence is transforming the world in amazing ways."
+   count1 = 0
 
+   for x in sample:
+     #if x == ('a'|'e'|'i'|'o'|'u'):   ->   this is wrong, string doesn't support bitwise OR
+     if x in 'aeiouAEIOU':
+       count1 = count1 + 1
+
+   print(count1)
+
+
+   #more optimized approach
+   count2 = sum(for x in sample if x in 'aeiouAEIOU')
+                  #this is a generator - later we'll read about them
+   print(count2)
+   ```
 ---
 
 ## ✅ Summary
