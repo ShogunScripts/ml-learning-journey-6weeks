@@ -4,7 +4,7 @@
 - Learn to read and write files in Python.
 - Understand exception handling with try-except-finally.
 - Practice file operations and error handling.
-
+- list comprehension & generator
 ---
 
 ## 📝 Notes
