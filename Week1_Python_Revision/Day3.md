@@ -50,6 +50,29 @@ There are four collection data types in the Python programming language:
   thislist = list(("apple", "banana", "cherry")) # note the double round-brackets
   print(thislist)
   ```
+- Methods to delete from a list:
+  ```python
+  # 1. Delete by index using 'del'
+  numbers1 = [10, 20, 30, 40]
+  del numbers1[1]  # deletes element at index 1
+  print("After del at index 1:", numbers1)  # [10, 30, 40]
+  
+  # 2. Delete by index using .pop() (also returns the removed element)
+  numbers2 = [10, 20, 30, 40]
+  removed = numbers2.pop(2)  # removes element at index 2
+  print("After pop at index 2:", numbers2, "| Removed:", removed)  # [10, 20, 40], Removed: 30
+  
+  # 3. Delete by value using .remove() (removes first occurrence)
+  numbers3 = [10, 20, 30, 20, 40]
+  numbers3.remove(20)  # removes the first occurrence of 20
+  print("After remove(20):", numbers3)  # [10, 30, 20, 40]
+  
+  # 4. Delete a slice (multiple elements at once)
+  numbers4 = [10, 20, 30, 40, 50]
+  numbers4[1:3] = []  # removes elements at index 1 and 2
+  print("After slicing [1:3]:", numbers4)  # [10, 40, 50]
+  
+  ```
 
 
 ### 2. Tuples (`tuple`)
@@ -88,6 +111,30 @@ There are four collection data types in the Python programming language:
   thistuple = tuple(("apple", "banana", "cherry")) # note the double round-brackets
   print(thistuple)
   ```
+- Methods to delete from a tuple:
+  ```python
+  # Original tuple
+  t = (1, 2, 3, 4)
+  print("Original tuple:", t)
+  
+  # 1. Delete the entire tuple
+  t1 = (1, 2, 3, 4)
+  del t1
+  # t1 is now deleted (uncommenting the next line would raise an error)
+  # print(t1)
+  
+  # 2. Delete an element by converting to list, then back to tuple
+  t2 = (1, 2, 3, 4)
+  temp = list(t2)
+  del temp[1]   # remove element at index 1
+  t2 = tuple(temp)
+  print("After deleting index 1 (via list):", t2)
+  
+  # 3. Create a new tuple without the element (using slicing)
+  t3 = (1, 2, 3, 4)
+  t3 = t3[:1] + t3[2:]  # remove element at index 1
+  print("After deleting index 1 (via slicing):", t3)
+  ```
 
 
 ### 3. Sets (`set`)
@@ -125,6 +172,24 @@ There are four collection data types in the Python programming language:
   ```python
   thisset = set(("apple", "banana", "cherry")) # note the double round-brackets
   print(thisset)
+  ```
+- To delete an item from set :
+  ```python
+  myset = {"apple", "banana", "cherry"}
+
+  # 1. remove() → removes item, raises error if not found
+  myset.remove("banana")
+  
+  # 2. discard() → removes item, does nothing if not found
+  myset.discard("orange")  # no error
+  
+  # 3. pop() → removes and returns a random item (since sets are unordered)
+  item = myset.pop()
+  print("Popped:", item)
+  
+  # 4. clear() → removes all items
+  myset.clear()
+  print(myset)  # set()
   ```
   
 
@@ -168,7 +233,7 @@ There are four collection data types in the Python programming language:
   ```
 - To determine how many items a dictionary has, use the `len()` function.
   ```python
-    thisdict = {
+  thisdict = {
     "brand": "Ford",
     "model": "Mustang",
     "year": 1964,
@@ -197,6 +262,19 @@ There are four collection data types in the Python programming language:
 - It is also possible to use the `dict()` constructor to make a dictionary.
   ```python
   thisdict = dict(name = "John", age = 36, country = "Norway")
+  print(thisdict)
+  ```
+- To delete a key-value pair in a dictionary:
+  ```python
+  thisdict = {
+    "brand": "Ford",
+    "electric": False,
+    "year": 1964,
+    "colors": ["red", "white", "blue"]
+  }
+
+  del thisdict['year']
+
   print(thisdict)
   ```
 
